@@ -1,0 +1,1 @@
+win32, Windows 10 Home Single Language, Windows_NT

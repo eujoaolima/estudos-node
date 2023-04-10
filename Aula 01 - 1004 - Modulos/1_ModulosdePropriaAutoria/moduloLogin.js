@@ -3,9 +3,9 @@ const array = require("./usuarios");
 function autenticar(email, senha) {
     const usuario = array.find(user => user.email === email && user.senha === senha);
     if (usuario) {
-        console.log("Usuário compatível")
+        return "Usuário compatível";
     } else {
-        console.log("O usuário não foi encontrado")
+        return "O usuário não foi encontrado";
     }
 }
 
